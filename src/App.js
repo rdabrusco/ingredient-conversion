@@ -10,7 +10,7 @@ function App() {
   function parseValueAndUnit(str) {
     const parts = str.trim().split(' ');
     if (parts.length < 2) {
-      alert('Iinput a value and a unit type')
+      alert('Input a value and a unit type')
       return null;
     }
     if(!/\d/.test(parts[0])){
